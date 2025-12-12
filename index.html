@@ -5,18 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position task</title>
     <style>
-        .main{position: relative;
-        width:390px;height:350px;border: 1px solid #000;}
-        .paid{position:absolute;padding:10px;text-align: center;top:200px;left:10px;background-color: red;} 
+        .main{position: relative;font-family: "Roboto", sans-serif;
+        width:340px;height:350px;border: 1px solid #000;box-shadow: 0 3px 8px #0000003d;
+        border-radius: 8px;}
+        .paid{position: absolute;
+                padding: 6px 30px;
+                background: linear-gradient(23deg, #de2575, #ff5030);
+                text-align: center;
+                top: 185px;
+                left: 17px;
+                background-color: red;
+                color: #fff;
+                border-radius: 8px;} 
+        .bottom{padding: 20px;color:#6c757d;}
+        .bottom h4{color:#000;margin-bottom: 50px;}
     </style>
 </head>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
     <div class="main">
-        <img src="https://static.guvi.in/cdn-cgi/image/metadata=keep,width=390,height=200,f=auto,fit=cover/course-thumbnail/webps/saps4hana.webp">
-        <h4>SAP S/4 HANA</h4>
-        <p>3 Hrs English</p>
+        <img src="https://static.guvi.in/cdn-cgi/image/metadata=keep,width=340,height=200,f=auto,fit=cover/course-thumbnail/webps/saps4hana.webp">
+        
         <span class="paid">Paid</span>
+        <div class="bottom">
+            <h4>SAP S/4 HANA</h4>
+            <p><i class="fas fa-clock"></i> 3 Hrs <i class="fas fa-globe"></i> English</p>
+        </div>
     </div>
 </body>
 </html>
